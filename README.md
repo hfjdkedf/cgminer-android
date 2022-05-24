@@ -116,4 +116,6 @@ now start mining `./cgminer -a scrypt -o stratum+tcp://scrypt.asia.mine.zergpool
 
 
 for more info `./cgminer --help`
->>>>>>> 0eccb90 (first commit)
+
+![Screenshot_2022-05-24-06-22-39-335_com termux](https://user-images.githubusercontent.com/72664192/170066315-6886791b-690c-493b-9bd0-e15986ade1ff.jpg)
+
