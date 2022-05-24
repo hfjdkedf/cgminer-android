@@ -1,27 +1,9 @@
-<<<<<<< HEAD
-# adreno && mali OpenCL GPU && CPU miner for android
-building dependency
--> pkg up && pkg upg && pkg i build-essential libtool cmake yasm make wget git libjansson libgmp opencl-headers libmicrohttpd libuv* clang binutils .
-for android pthread-cancel install https://github.com/tux-mind/libbthread.git
--> git clone https://github.com/tux-mind/libbthread.git && cd libbthread && autoreconf -i && ./configure --prefix$PREFIX
-then install termux gcc for  -> curl -LO https://its-pointless.github.io/setup-pointless-repo.sh && pkg i gcc-11 libgccjit-11-dev
-now you should install OpenCL driver 
-for Adreno
-ln -s /system/vendor/lib64/libOpenCL.so $PREFIX/lib/libOpenCL.so
-for mali 
-ln -s /system/vendor/lib64/egl/libmali.so $PREFIX/lib/libOpenCL.so 
-and add OPENCL PATH to .bashrc 
-nano ~/.bashrc 
-add path --> export LD_LIBRARY_PATH=$PREFIX/lib:/vendor/lib64:/vendor/lib64/egl
-save && exit from termux 
-open termux and clone .
-git clone https://github.com/Saikatsaha1996/cgminer-android.git && cd cgminer-android && setupgcc-11 && setup-patchforgcc && CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a73" ./configure --enable-cpumining --enable-scrypt --disable-adl && make
 
 
 
 
 
-=======
+
 # Adreno && Mali OpenCL GPU && aarch64 CPU miner for android
 
 >> Original developers
