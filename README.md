@@ -46,7 +46,7 @@ autoreconf -i
 nano bthread.h
 ```
 
-under <bthread.h> add `#include <pthread.h>`
+under `<bthread.h>` add `#include <pthread.h>`
 
 then run
 
