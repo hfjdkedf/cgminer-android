@@ -25,7 +25,9 @@ http://bitcointalk.org/index.php?topic=28402.0
 
 IRC Channel:
 
-irc://irc.freenode.net/cgminer
+irc://irc.freenode.net/cgminer 
+
+Forked from https://github.com/JordanRulz/cgminer.git
 
 # warning
 
